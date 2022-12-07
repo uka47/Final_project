@@ -1,0 +1,214 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title{
+    background-color: #f5f5f5;
+    margin-top: 10%;
+}
+.container-fluid{
+    height: 30px;
+}
+.container{
+    background-color: #f5f5f5;
+}
+
+.container{
+    padding-bottom: 50px;
+}
+
+h1{
+    font-family: 'Nanum Myeongjo', serif; 
+    font-weight: bold;  
+    font-size: 3rem;
+    line-height: 1.5;
+    color: rgb(3, 3, 3);
+}
+
+.wBg{
+    background-color: white;
+}
+
+.row{
+    padding-top: 50px;
+}
+
+.btmPadding{
+    padding-bottom: 50px;
+}
+.topPadding{
+    padding-top: 50px;
+}
+
+.letterSpace{
+    line-height: 1.2;
+
+}
+
+h2{
+    font-family: 'Nanum Myeongjo', serif; 
+    font-weight: bold; 
+    color: rgb(50, 50, 50);
+    font-size: 2rem;
+}
+
+.mainText{
+    text-align: justify
+}
+
+h3{
+    font-family: 'Nanum Myeongjo', serif; 
+    font-weight: bold; 
+    color: rgb(100, 100, 100); 
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(85, 42, 10);
+}
+
+.floatR{
+    float:right;
+}
+
+a{
+    font-size: 30px;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+a:hover {
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a.resume:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a.resume:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a.resume:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a.resume:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+/* navbar */
+.navbar{
+    overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 4;
+    padding:0.5% 3%;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+.navbar-brand{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2.5rem;
+    text-shadow:2px 2px rgb(218, 218, 218);
+}
+.nav-item{
+    padding:0 12px;
+}
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+}
+
+.title-image{
+    width: 55%;
+    padding: 5% 5% 5% 5%;
+}
+
+.underPos{
+    position: relative;
+}
+.topPos{
+    position: absolute;
+    top: 40%;
+  right: 10%;
+  width: auto;
+  height: auto;
+}
+
+.lineThrough{
+    text-decoration-line: line-through;
+}
+/* portfolio */
+#portfolio{
+    padding-top: 10%;
+}
+.thumbnail{
+    width: 150px;
+    margin-bottom: 10px;
+}
+.fitScreen{
+    width: 100%;
+}
+.bgPic{
+    background-image: url(../images/Asset\ 7.png);
+    height: 500px;
+    opacity: 0.3;
+    background-attachment: fixed;
+}
+.bgPicT{
+    background-image: url(../images/Asset\ 6.png);
+    height: 500px;
+    opacity: 0.3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Footer */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    color: #F56639;
+}
+
+/* Media Query Section */
+
+@media (max-width: 540px){
+    h1{ 
+    font-size: 2rem;
+    }
+    .navbar-brand{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 991px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+    width: 70%;
+    transform: rotate(0);
+    }
+}
+
+@media (max-width: 767px){
+    .title-image{
+    width: 50%;
+    }
+}
+
